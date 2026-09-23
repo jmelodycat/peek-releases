@@ -12,7 +12,7 @@ This repository holds installers only. The source code is not public.
 
 ## 한국어
 
-<img src="docs/group.png" width="200" align="right" alt="묶음 칸과 웹 주소가 등록된 Peek 위젯">
+<img src="images/group.png" width="200" align="right" alt="묶음 칸과 웹 주소가 등록된 Peek 위젯">
 
 매일 사용하는 프로그램과 웹페이지가 즐겨찾기, 바탕화면, 탐색기에 흩어져 있으면 찾는 데 시간이 걸립니다. Peek은 이것들을 화면 가장자리의 다섯 칸에 모아 둡니다.
 
@@ -51,7 +51,7 @@ This repository holds installers only. The source code is not public.
 
 **접기.** 아래쪽 화살표를 클릭하면 위젯이 접힙니다. 너비는 그대로 두고 아래쪽 한 줄만 남습니다. 평소에 열고 닫는 방법입니다.
 
-<img src="docs/fold.png" width="300" alt="펼친 Peek 위젯과 접은 Peek 위젯">
+<img src="images/fold.png" width="300" alt="펼친 Peek 위젯과 접은 Peek 위젯">
 
 **한꺼번에 감추기.** 윈도우에서는 윈도우 키와 D를 함께 누르면 다른 창과 함께 접히고, 다시 누르면 같이 돌아옵니다. 화면을 공유하거나 옆에서 누가 볼 때처럼 바탕화면만 남기고 싶은 순간에, 위젯만 따로 치울 필요가 없습니다.
 
@@ -84,7 +84,7 @@ peek://open/<칸 또는 묶음의 이름>
 
 부가 기능입니다. 다섯 개의 캐릭터 중 하나를 위젯 위에 표시할 수 있으며, 캐릭터는 이따금 움직입니다. 기본값은 캐릭터를 표시하지 않는 것입니다.
 
-<img src="docs/characters.png" width="560" alt="위젯 위에 표시된 다섯 개의 캐릭터">
+<img src="images/characters.png" width="560" alt="위젯 위에 표시된 다섯 개의 캐릭터">
 
 위젯을 접으면 악어와 공룡은 함께 사라집니다. 고양이, 얼룩 고양이, 엎드린 악어는 접은 뒤에도 그림처럼 남아 있습니다.
 
@@ -113,7 +113,7 @@ peek://open/<칸 또는 묶음의 이름>
 
 ## English
 
-<img src="docs/group.png" width="200" align="right" alt="The Peek widget with a group slot and a web address">
+<img src="images/group.png" width="200" align="right" alt="The Peek widget with a group slot and a web address">
 
 The programs and web pages you use every day are spread across bookmarks, the desktop and the file explorer. Finding them takes time. Peek collects them into five slots at the edge of your screen.
 
@@ -152,7 +152,7 @@ The how-to window appears once after installation, and can be reopened from the 
 
 **Folding.** Clicking the arrow at the bottom folds the widget. The width stays the same and only the bottom row remains. This is the everyday way to open and close it.
 
-<img src="docs/fold.png" width="300" alt="The Peek widget expanded and folded">
+<img src="images/fold.png" width="300" alt="The Peek widget expanded and folded">
 
 **Hiding it with everything else.** On Windows, pressing the Windows key and D folds Peek together with your other windows, and pressing it again brings them all back. When you are sharing your screen or someone is looking over your shoulder, you do not have to put the widget away separately.
 
@@ -185,7 +185,7 @@ peek://open/<name of the slot or group>
 
 An optional feature. One of five characters can be displayed on the widget, and the character moves from time to time. By default no character is shown.
 
-<img src="docs/characters.en.png" width="560" alt="The five characters displayed on the widget">
+<img src="images/characters.en.png" width="560" alt="The five characters displayed on the widget">
 
 When the widget is folded, the crocodile and the dinosaur disappear with it. The cat, the tabby and the resting crocodile remain visible.
 
