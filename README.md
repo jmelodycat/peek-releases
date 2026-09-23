@@ -78,11 +78,11 @@ peek://open/<칸 또는 묶음의 이름>
 
 <img src="docs/characters.png" width="560" alt="위젯 위에 표시된 다섯 개의 캐릭터">
 
-위젯을 접으면 악어와 공룡은 함께 사라집니다. 고양이, 얼룩 고양이, 엎드린 악어는 접은 뒤에도 표시됩니다.
+위젯을 접으면 악어와 공룡은 함께 사라집니다. 고양이, 얼룩 고양이, 엎드린 악어는 접은 뒤에도 그림처럼 남아 있습니다.
 
 ### 개인 정보
 
-등록한 주소와 사용 기록은 사용자의 컴퓨터 밖으로 전송되지 않습니다. 계정도 서버 동기화도 없습니다. 외부와 통신하는 경우는 두 가지입니다. 웹 주소의 아이콘을 가져올 때와, 새 버전이 있는지 확인할 때입니다. 두 경우 모두 사용자에 관한 정보를 전송하지 않습니다.
+등록한 주소와 사용 기록은 사용자의 컴퓨터 밖으로 전송되지 않습니다. 계정도 서버 동기화도 없습니다. 외부와 통신하는 경우는 두 가지입니다. 웹 주소의 아이콘을 가져올 때와, 새 버전이 나왔는지 확인할 때입니다. 두 경우 모두 요청만 보낼 뿐, 외부로 나가는 데이터는 없습니다.
 
 설정은 아래 파일 한 개에만 저장됩니다.
 
@@ -169,13 +169,13 @@ peek://open/<name of the slot or group>
 
 An optional feature. One of five characters can be displayed on the widget, and the character moves from time to time. By default no character is shown.
 
-<img src="docs/characters.png" width="560" alt="The five characters displayed on the widget">
+<img src="docs/characters.en.png" width="560" alt="The five characters displayed on the widget">
 
 When the widget is folded, the crocodile and the dinosaur disappear with it. The cat, the tabby and the resting crocodile remain visible.
 
 ### Privacy
 
-The addresses you register and your usage history are never sent outside your computer. There is no account and no server synchronisation. Peek connects to the network in two cases: to fetch the icon for a web address, and to check whether a newer version exists. Neither request sends any information about you.
+The addresses you register and your usage history are never sent outside your computer. There is no account and no server synchronisation. Peek connects to the network in two cases: to fetch the icon for a web address, and to check whether a newer version exists. Neither request sends any data about you.
 
 Settings are stored in a single file.
 
