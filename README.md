@@ -1,10 +1,12 @@
 # Peek
 
 화면 가장자리에 다섯 칸을 두고, 웹페이지와 프로그램과 파일과 폴더를 한 자리에서 엽니다.
+Five slots at the edge of your screen. Open web pages, programs, files and folders from one place.
 
-[English](#english) · [한국어](#한국어)
+[한국어](#한국어) · [English](#english)
 
 이 저장소에는 설치 파일만 있습니다. 소스 코드는 공개하지 않습니다.
+This repository holds installers only. The source code is not public.
 
 ---
 
@@ -47,11 +49,13 @@
 
 **등록하기.** 웹페이지와 프로그램과 폴더를 칸으로 끌어다 놓으면 등록됩니다. 브라우저 주소창의 링크를 끌어와도 됩니다. 빈 칸을 클릭해 주소나 경로를 직접 입력할 수도 있습니다.
 
-**정리하기.** 아래쪽 화살표를 클릭하면 위젯이 접힙니다. 접으면 아래처럼 펼치기 화살표 하나만 남습니다.
+**접기.** 아래쪽 화살표를 클릭하면 위젯이 접힙니다. 너비는 그대로 두고 아래쪽 한 줄만 남습니다. 평소에 열고 닫는 방법입니다.
 
-<img src="docs/folded.png" width="130" alt="접힌 Peek 위젯">
+<img src="docs/fold.png" width="300" alt="펼친 Peek 위젯과 접은 Peek 위젯">
 
- 윈도우에서는 윈도우 키와 D를 함께 누르면 다른 창과 함께 접히고, 다시 누르면 펼쳐집니다. 점 세 개를 끌면 위젯을 옮길 수 있으며 화면 가장자리에 자동으로 붙습니다. 칸을 끌어 다른 칸의 위나 아래에 놓으면 순서가 바뀝니다.
+**한꺼번에 감추기.** 윈도우에서는 윈도우 키와 D를 함께 누르면 다른 창과 함께 접히고, 다시 누르면 같이 돌아옵니다. 화면을 공유하거나 옆에서 누가 볼 때처럼 바탕화면만 남기고 싶은 순간에, 위젯만 따로 치울 필요가 없습니다.
+
+**옮기기와 순서 바꾸기.** 점 세 개를 끌면 위젯을 옮길 수 있으며 화면 가장자리에 자동으로 붙습니다. 칸을 끌어 다른 칸의 위나 아래에 놓으면 순서가 바뀝니다.
 
 ### 그 밖의 기능
 
@@ -95,6 +99,8 @@ peek://open/<칸 또는 묶음의 이름>
 맥      ~/Library/Application Support/dev.jmelodycat.peekwidget/config.json
 ```
 
+이 파일에는 등록한 다섯 칸과 위젯 위치, 테마와 색, 언어, 캐릭터, 자동 실행 여부가 들어 있습니다. 각 칸을 몇 번 열었는지와 위젯을 접은 날짜도 함께 적힙니다. 다른 컴퓨터로 옮기려면 같은 경로에 이 파일을 복사합니다. 웹 주소는 그대로 열리지만 프로그램과 폴더는 경로가 같아야 열립니다.
+
 ### 삭제
 
 윈도우에서는 설정 > 앱 > 설치된 앱에서 Peek을 제거합니다. 맥에서는 응용 프로그램 폴더에서 Peek.app을 삭제합니다. 설정 파일은 위 경로에 남으므로 필요하면 해당 폴더도 함께 삭제합니다.
@@ -115,7 +121,7 @@ The programs and web pages you use every day are spread across bookmarks, the de
 
 Items you always use together can be placed in a single slot. In the picture on the right, the top slot holds Gmail, Chrome and a messenger.
 
-1. **Put them in one slot.** Drag an icon onto the centre of another slot to combine the two. A slot holds up to four items.
+1. **Put them in one slot.** Drag an icon onto the center of another slot to combine the two. A slot holds up to four items.
 2. **One click opens them all.** Clicking a combined slot launches every item inside it.
 3. **Assign a shortcut.** Right-click the combined slot, choose Set a shortcut and press a key. Ctrl + Alt is added automatically.
 
@@ -144,11 +150,13 @@ The how-to window appears once after installation, and can be reopened from the 
 
 **Registering.** Drag web pages, programs and folders onto a slot to register them. Links dragged from a browser address bar also work. You can also click an empty slot and type an address or a path.
 
-**Tidying.** Clicking the arrow at the bottom folds the widget. Once folded, only the unfold arrow remains.
+**Folding.** Clicking the arrow at the bottom folds the widget. The width stays the same and only the bottom row remains. This is the everyday way to open and close it.
 
-<img src="docs/folded.png" width="130" alt="The folded Peek widget">
+<img src="docs/fold.png" width="300" alt="The Peek widget expanded and folded">
 
- On Windows, pressing the Windows key and D folds it together with your other windows and unfolds it again. Dragging the three dots moves the widget, which then snaps to the edge of the screen. Dragging a slot above or below another slot changes the order.
+**Hiding it with everything else.** On Windows, pressing the Windows key and D folds Peek together with your other windows, and pressing it again brings them all back. When you are sharing your screen or someone is looking over your shoulder, you do not have to put the widget away separately.
+
+**Moving and reordering.** Dragging the three dots moves the widget, which then snaps to the edge of the screen. Dragging a slot above or below another slot changes the order.
 
 ### Other features
 
@@ -156,16 +164,16 @@ The how-to window appears once after installation, and can be reopened from the 
 |---|---|
 | Right-click a slot | Edit its name and address |
 | Hover over a slot | Delete with the red X button |
-| Right-click the panel | Theme, colour, language, character, start-up, how to use, quit |
-| Tray icon | Show widget, move to centre, how to use, quit |
+| Right-click the panel | Theme, color, language, character, start-up, how to use, quit |
+| Tray icon | Show widget, move to center, how to use, quit |
 
 All settings are in the menu that appears when you right-click the panel. The menu stays open after you select an item, so you can change several settings in turn.
 
-Colours are chosen from the six dots in the middle of the menu: default, pink, blue, green, violet and sand. Light and dark variants are calculated separately from the colour you select.
+Colors are chosen from the six dots in the middle of the menu: default, pink, blue, green, violet and sand. Light and dark variants are calculated separately from the color you select.
 
 Korean and English are supported. Peek follows your system language, and you can fix it to one language from the menu.
 
-If you cannot find the widget, choose Move to centre from the tray icon.
+If you cannot find the widget, choose Move to center from the tray icon.
 
 Other programs can call Peek using the address below. Peek starts automatically if it is not running, and the name must match exactly.
 
@@ -183,7 +191,7 @@ When the widget is folded, the crocodile and the dinosaur disappear with it. The
 
 ### Privacy
 
-The addresses you register and your usage history are never sent outside your computer. There is no account and no server synchronisation. Peek connects to the network in two cases: to fetch the icon for a web address, and to check whether a newer version exists. Neither request sends any data about you.
+The addresses you register and your usage history are never sent outside your computer. There is no account and no server synchronization. Peek connects to the network in two cases: to fetch the icon for a web address, and to check whether a newer version exists. Neither request sends any data about you.
 
 Settings are stored in a single file.
 
@@ -191,6 +199,8 @@ Settings are stored in a single file.
 Windows  %APPDATA%\dev.jmelodycat.peekwidget\config.json
 macOS    ~/Library/Application Support/dev.jmelodycat.peekwidget/config.json
 ```
+
+This file holds the five slots you registered, the widget position, the theme and color, the language, the character and whether Peek starts at login. It also records how many times each slot has been opened and the dates the widget was folded. To move your setup to another computer, copy this file to the same path. Web addresses open as before, but programs and folders only open if they sit at the same path on the new computer.
 
 ### Uninstalling
 
