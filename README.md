@@ -1,90 +1,183 @@
 # Peek
 
-Five slots on the edge of your screen. Web pages, programs, files and folders open from one place.
+화면 가장자리에 다섯 칸을 두고, 웹페이지와 프로그램과 파일과 폴더를 한 자리에서 엽니다.
 
 [English](#english) · [한국어](#한국어)
 
-This repository holds the installers only. The source is kept separately.
+이 저장소에는 설치 파일만 있습니다. 소스 코드는 공개하지 않습니다.
+
+---
+
+## 한국어
+
+<img src="docs/group.png" width="200" align="right" alt="묶음 칸과 웹 주소가 등록된 Peek 위젯">
+
+매일 사용하는 프로그램과 웹페이지가 즐겨찾기, 바탕화면, 탐색기에 흩어져 있으면 찾는 데 시간이 걸립니다. Peek은 이것들을 화면 가장자리의 다섯 칸에 모아 둡니다.
+
+### 여러 개를 한 번에 열기
+
+자주 함께 사용하는 항목은 한 칸에 묶을 수 있습니다. 오른쪽 그림에서는 맨 위 칸에 지메일과 크롬과 메신저가 함께 들어 있습니다.
+
+1. **한 칸에 모읍니다.** 아이콘을 다른 칸의 가운데로 끌어다 놓으면 두 항목이 하나로 묶입니다. 한 칸에 최대 4개까지 넣을 수 있습니다.
+2. **한 번 클릭하면 모두 실행됩니다.** 묶인 칸을 클릭하면 안에 있는 항목이 전부 열립니다.
+3. **단축키를 지정할 수 있습니다.** 묶인 칸을 마우스 오른쪽 버튼으로 클릭한 뒤 단축키 걸기를 선택하고 원하는 글자를 누릅니다. Ctrl + Alt가 자동으로 붙습니다.
+
+두 번째 칸에는 웹 주소가 등록되어 있습니다. 웹 주소를 등록하면 해당 사이트의 아이콘이 자동으로 표시됩니다.
+
+<br clear="right">
+
+### 다운로드
+
+[Releases](../../releases) 에서 최신 버전을 받을 수 있습니다.
+
+| 운영체제 | 파일 | 요구 사항 |
+|---|---|---|
+| 윈도우 | `Peek_x.y.z_x64-setup.exe` | 윈도우 10 이상, 64비트 |
+| 맥 | `Peek_x.y.z_universal.dmg` | 애플 실리콘과 인텔 모두 |
+
+### 설치
+
+**윈도우.** 설치 파일을 실행하면 "게시자를 알 수 없습니다"라는 경고가 표시됩니다. 코드 서명을 하지 않은 개인 제작 프로그램이기 때문입니다. 추가 정보를 클릭한 뒤 실행을 선택하면 설치가 진행됩니다.
+
+**맥.** dmg 파일을 열어 Peek을 응용 프로그램 폴더로 옮깁니다. 그다음 아이콘을 마우스 오른쪽 버튼으로 클릭하고 열기를 선택합니다. 더블클릭으로는 실행되지 않습니다. 서명과 공증을 거치지 않았기 때문입니다. 그래도 실행되지 않으면 터미널에서 `xattr -cr /Applications/Peek.app` 명령을 한 번 실행합니다.
+
+설치가 끝나면 사용법 창이 한 번 표시됩니다. 이후에는 트레이 아이콘에서 다시 열 수 있습니다. 새 버전을 덮어 설치해도 등록해 둔 다섯 칸은 그대로 유지됩니다.
+
+### 등록하기와 정리하기
+
+**등록하기.** 웹페이지와 프로그램과 폴더를 칸으로 끌어다 놓으면 등록됩니다. 브라우저 주소창의 링크를 끌어와도 됩니다. 빈 칸을 클릭해 주소나 경로를 직접 입력할 수도 있습니다.
+
+**정리하기.** 아래쪽 화살표를 클릭하면 위젯이 접히고 손잡이 부분만 남습니다. 윈도우에서는 윈도우 키와 D를 함께 누르면 다른 창과 함께 접히고, 다시 누르면 펼쳐집니다. 점 세 개를 끌면 위젯을 옮길 수 있으며 화면 가장자리에 자동으로 붙습니다. 칸을 끌어 다른 칸의 위나 아래에 놓으면 순서가 바뀝니다.
+
+### 그 밖의 기능
+
+| 조작 | 기능 |
+|---|---|
+| 칸을 오른쪽 버튼으로 클릭 | 이름과 주소 수정 |
+| 칸 위에 마우스 올리기 | 빨간색 X 버튼으로 삭제 |
+| 패널을 오른쪽 버튼으로 클릭 | 테마, 색상, 언어, 캐릭터, 자동 실행, 사용법, 종료 |
+| 트레이 아이콘 | 위젯 표시, 화면 중앙으로 이동, 사용법, 종료 |
+
+모든 설정은 패널을 오른쪽 버튼으로 클릭하면 나오는 메뉴에 있습니다. 항목을 선택해도 메뉴가 닫히지 않기 때문에 여러 설정을 차례로 바꿔 볼 수 있습니다.
+
+색상은 메뉴 가운데에 있는 여섯 개의 점에서 고릅니다. 기본, 핑크, 파랑, 초록, 보라, 모래 중에서 선택할 수 있습니다. 선택한 색상에 맞춰 밝은 화면과 어두운 화면의 색이 각각 계산됩니다.
+
+한국어와 영어를 지원합니다. 운영체제의 언어 설정을 따라가며, 메뉴에서 하나로 고정할 수도 있습니다.
+
+위젯의 위치를 찾지 못할 때는 트레이 아이콘에서 화면 중앙으로 이동을 선택합니다.
+
+다른 프로그램에서 Peek을 호출할 때는 아래 주소를 사용합니다. Peek이 실행 중이 아니면 자동으로 실행되며, 등록해 둔 이름과 정확히 일치해야 합니다.
+
+```
+peek://open/<칸 또는 묶음의 이름>
+```
+
+### 캐릭터
+
+부가 기능입니다. 다섯 개의 캐릭터 중 하나를 위젯 위에 표시할 수 있으며, 캐릭터는 이따금 움직입니다. 기본값은 캐릭터를 표시하지 않는 것입니다.
+
+<img src="docs/characters.png" width="560" alt="위젯 위에 표시된 다섯 개의 캐릭터">
+
+위젯을 접으면 악어와 공룡은 함께 사라집니다. 고양이, 얼룩 고양이, 엎드린 악어는 접은 뒤에도 표시됩니다.
+
+### 개인 정보
+
+등록한 주소와 사용 기록은 사용자의 컴퓨터 밖으로 전송되지 않습니다. 계정도 서버 동기화도 없습니다. 외부와 통신하는 경우는 두 가지입니다. 웹 주소의 아이콘을 가져올 때와, 새 버전이 있는지 확인할 때입니다. 두 경우 모두 사용자에 관한 정보를 전송하지 않습니다.
+
+설정은 아래 파일 한 개에만 저장됩니다.
+
+```
+윈도우  %APPDATA%\dev.jmelodycat.peekwidget\config.json
+맥      ~/Library/Application Support/dev.jmelodycat.peekwidget/config.json
+```
+
+### 삭제
+
+윈도우에서는 설정 > 앱 > 설치된 앱에서 Peek을 제거합니다. 맥에서는 응용 프로그램 폴더에서 Peek.app을 삭제합니다. 설정 파일은 위 경로에 남으므로 필요하면 해당 폴더도 함께 삭제합니다.
+
+### 문의
+
+버그나 불편한 점은 [Issues](../../issues) 에 남겨 주세요. 개인이 만든 프로그램이라 답변이 늦을 수 있습니다.
 
 ---
 
 ## English
 
-<img src="docs/group.png" width="200" align="right" alt="Peek with a group slot and a web address">
+<img src="docs/group.png" width="200" align="right" alt="The Peek widget with a group slot and a web address">
 
-Everything you open every day is scattered across bookmarks, the desktop and the file explorer. Peek gathers it into five slots so you stop hunting for things.
+The programs and web pages you use every day are spread across bookmarks, the desktop and the file explorer. Finding them takes time. Peek collects them into five slots at the edge of your screen.
 
-### Start your morning with one click
+### Opening several items at once
 
-Put the things you always open together into one slot. Here Gmail, Chrome and a messenger sit in the top slot.
+Items you always use together can be placed in a single slot. In the picture on the right, the top slot holds Gmail, Chrome and a messenger.
 
-1. **Drop them onto the same slot.** Drag an icon onto the middle of another slot and let go once the border appears. A slot holds up to four.
-2. **Click it once and they all open.** No picking, no waiting through a list.
-3. **Give it a shortcut.** Right-click the group, choose Set a shortcut and press a key. Ctrl + Alt is added for you, so Ctrl + Alt + M starts your whole morning.
+1. **Put them in one slot.** Drag an icon onto the centre of another slot to combine the two. A slot holds up to four items.
+2. **One click opens them all.** Clicking a combined slot launches every item inside it.
+3. **Assign a shortcut.** Right-click the combined slot, choose Set a shortcut and press a key. Ctrl + Alt is added automatically.
 
-The second slot is a plain web address. Peek fetches the site's own icon, so you recognise it without reading.
+The second slot holds a web address. When you register a web address, the site's own icon is displayed automatically.
 
 <br clear="right">
 
 ### Download
 
-Get the latest build from [Releases](../../releases).
+The latest version is available on the [Releases](../../releases) page.
 
-| | File | Requirements |
+| System | File | Requirements |
 |---|---|---|
 | Windows | `Peek_x.y.z_x64-setup.exe` | Windows 10 or later, 64-bit |
-| macOS | `Peek_x.y.z_aarch64.dmg` | Apple silicon |
+| macOS | `Peek_x.y.z_universal.dmg` | Apple silicon and Intel |
 
-### Install
+### Installation
 
-**Windows.** The installer shows an "unknown publisher" warning. This is a personal tool without code signing. Choose More info, then Run.
+**Windows.** The installer displays an "unknown publisher" warning because the program is not code signed. Click More info and then Run to continue.
 
-**macOS.** Open the dmg, move Peek to Applications, then right-click the icon and choose Open. A plain double-click will not work, for the same reason: no signing or notarisation. If it still refuses, run `xattr -cr /Applications/Peek.app` once in Terminal.
+**macOS.** Open the dmg file and move Peek to the Applications folder. Then right-click the icon and choose Open. Double-clicking will not work, because the app is neither signed nor notarised. If it still refuses to open, run `xattr -cr /Applications/Peek.app` once in Terminal.
 
-The how-to window opens once after installing. You can reopen it any time from the tray icon. Installing a newer build over an older one keeps the five slots you set up.
+The how-to window appears once after installation, and can be reopened from the tray icon. Installing a newer version over an older one keeps the slots you have already set up.
 
-### Adding and tidying up
+### Registering and tidying
 
-**Adding.** Drop web pages, programs and folders straight onto a slot. Dragging a link from your browser works too. Or click an empty slot and type an address or a path.
+**Registering.** Drag web pages, programs and folders onto a slot to register them. Links dragged from a browser address bar also work. You can also click an empty slot and type an address or a path.
 
-**Tidying up.** The down arrow folds the widget away and leaves a single handle. Windows key + D folds it with everything else and unfolds it again (Windows only). Drag the three dots to move it, and it snaps to the edge of the screen. Drag a slot onto the top or bottom edge of another to reorder.
+**Tidying.** Clicking the arrow at the bottom folds the widget, leaving only the handle. On Windows, pressing the Windows key and D folds it together with your other windows and unfolds it again. Dragging the three dots moves the widget, which then snaps to the edge of the screen. Dragging a slot above or below another slot changes the order.
 
-### Everything else
+### Other features
 
-| Action | What it does |
+| Action | Function |
 |---|---|
-| Right-click a slot | Change its name and address |
-| Hover over a slot | Red X to delete |
+| Right-click a slot | Edit its name and address |
+| Hover over a slot | Delete with the red X button |
 | Right-click the panel | Theme, colour, language, character, start-up, how to use, quit |
 | Tray icon | Show widget, move to centre, how to use, quit |
 
-Every setting lives in the panel's right-click menu. The menu stays open after you pick something, so you can try things side by side.
+All settings are in the menu that appears when you right-click the panel. The menu stays open after you select an item, so you can change several settings in turn.
 
-Colours are the six dots in the middle of the menu: default, pink, blue, green, violet and sand. Light and dark are calculated separately from the colour you choose.
+Colours are chosen from the six dots in the middle of the menu: default, pink, blue, green, violet and sand. Light and dark variants are calculated separately from the colour you select.
 
-Peek speaks Korean and English. It follows your system language, and you can pin one in the menu.
+Korean and English are supported. Peek follows your system language, and you can fix it to one language from the menu.
 
-Lost the widget? Use the tray icon and choose Move to centre.
+If you cannot find the widget, choose Move to centre from the tray icon.
 
-Other tools can call Peek with this address. It starts the app if it is not running, and the name has to match exactly.
+Other programs can call Peek using the address below. Peek starts automatically if it is not running, and the name must match exactly.
 
 ```
-peek://open/<slot or group name>
+peek://open/<name of the slot or group>
 ```
 
 ### Characters
 
-A small extra. You can sit one of five characters on the widget, and they move now and then. It starts with none, which keeps the widget plain.
+An optional feature. One of five characters can be displayed on the widget, and the character moves from time to time. By default no character is shown.
 
-<img src="docs/characters.png" width="560" alt="The five characters sitting on the widget">
+<img src="docs/characters.png" width="560" alt="The five characters displayed on the widget">
 
-Crocodile and dinosaur disappear when you fold the widget. Cat, tabby and resting crocodile stay visible.
+When the widget is folded, the crocodile and the dinosaur disappear with it. The cat, the tabby and the resting crocodile remain visible.
 
 ### Privacy
 
-What you add and how you use it never leaves this computer. There is no account and no server sync. Only two things reach the network: fetching the icon for a web address, and asking whether a newer version exists. Neither request sends anything about you.
+The addresses you register and your usage history are never sent outside your computer. There is no account and no server synchronisation. Peek connects to the network in two cases: to fetch the icon for a web address, and to check whether a newer version exists. Neither request sends any information about you.
 
-Settings are kept in one file.
+Settings are stored in a single file.
 
 ```
 Windows  %APPDATA%\dev.jmelodycat.peekwidget\config.json
@@ -93,101 +186,8 @@ macOS    ~/Library/Application Support/dev.jmelodycat.peekwidget/config.json
 
 ### Uninstalling
 
-On Windows, remove Peek from Settings > Apps > Installed apps. On macOS, delete Peek.app from Applications. The settings file stays at the path above, so delete that folder as well if you want it gone.
+On Windows, remove Peek from Settings > Apps > Installed apps. On macOS, delete Peek.app from the Applications folder. The settings file remains at the path above, so delete that folder as well if required.
 
-### Reporting something
+### Feedback
 
-Please open an [issue](../../issues). This is made by one person, so replies can be slow.
-
----
-
-## 한국어
-
-<img src="docs/group.png" width="200" align="right" alt="묶음 칸과 웹 주소가 담긴 Peek">
-
-매일 여는 것들이 즐겨찾기, 바탕화면, 탐색기에 흩어져 있어 찾는 데 드는 시간을 없애려고 만들었습니다. 웹페이지, 프로그램, 파일, 폴더를 모두 다섯 칸에 모읍니다.
-
-### 아침에 여는 것들을 한 번에
-
-늘 같이 켜는 것들을 한 칸에 묶어둘 수 있습니다. 그림에서는 맨 위 칸에 지메일, 크롬, 메신저가 들어 있습니다.
-
-1. **같은 칸에 끌어다 놓습니다.** 아이콘을 다른 칸 한가운데에 올려 테두리가 생겼을 때 놓으면 묶입니다. 한 칸에 4개까지 들어갑니다.
-2. **한 번 누르면 다 열립니다.** 고를 것도 없고 목록을 지날 것도 없습니다.
-3. **단축키를 걸어둡니다.** 묶음을 오른쪽 클릭해 단축키 걸기를 누르고 글자 하나를 누르세요. Ctrl + Alt는 자동으로 붙어서, Ctrl + Alt + M 하나로 아침이 시작됩니다.
-
-두 번째 칸은 그냥 웹 주소입니다. 그 사이트의 아이콘을 가져오기 때문에 읽지 않아도 알아봅니다.
-
-<br clear="right">
-
-### 받기
-
-[Releases](../../releases) 에서 최신 판을 받으세요.
-
-| | 파일 | 요구 사항 |
-|---|---|---|
-| 윈도우 | `Peek_x.y.z_x64-setup.exe` | 윈도우 10 이상, 64비트 |
-| 맥 | `Peek_x.y.z_aarch64.dmg` | 애플 실리콘 |
-
-### 설치
-
-**윈도우.** 설치 파일을 실행하면 "게시자를 알 수 없습니다" 경고가 뜹니다. 코드 서명을 하지 않은 개인 도구라 그렇습니다. 추가 정보를 누르고 실행을 고르면 설치됩니다.
-
-**맥.** dmg를 열어 응용 프로그램으로 옮긴 뒤, 아이콘을 오른쪽 클릭해서 열기를 고릅니다. 그냥 두 번 눌러서는 열리지 않습니다. 이것도 서명과 공증을 하지 않아서입니다. 계속 막히면 터미널에서 `xattr -cr /Applications/Peek.app` 을 한 번 실행하세요.
-
-설치가 끝나면 사용법 창이 한 번 뜹니다. 트레이 아이콘에서 언제든 다시 열 수 있습니다. 다음 판을 덮어 설치해도 등록해 둔 다섯 칸은 그대로 남습니다.
-
-### 넣기와 정리
-
-**넣기.** 웹페이지, 프로그램, 폴더 모두 칸에 끌어다 놓으면 들어갑니다. 브라우저에서 링크를 그대로 끌어와도 됩니다. 빈 칸(+)을 눌러 주소나 경로를 직접 넣어도 됩니다.
-
-**정리.** 아래 화살표를 누르면 접힙니다. 손잡이 한 줄만 남습니다. 윈도우키 + D를 누르면 같이 접히고, 다시 누르면 같이 펴집니다(윈도우만). 점 세 개를 끌면 옮겨지고 화면 가장자리에 붙습니다. 칸을 끌어 다른 칸의 위나 아래 끄트머리에 놓으면 순서가 바뀝니다.
-
-### 그 밖에
-
-| 조작 | 하는 일 |
-|---|---|
-| 칸 오른쪽 클릭 | 이름과 주소 고치기 |
-| 칸에 마우스 올리기 | 빨간 X로 지우기 |
-| 패널 오른쪽 클릭 | 테마, 색, 언어, 캐릭터, 자동 실행, 사용법, 종료 |
-| 트레이 아이콘 | 위젯 보이기, 화면 중앙으로, 사용법, 종료 |
-
-설정은 전부 패널 오른쪽 클릭에 있습니다. 메뉴는 고른다고 닫히지 않아서 하나씩 눌러 보며 정할 수 있습니다.
-
-색은 메뉴 가운데 점 여섯 개입니다. 기본, 핑크, 파랑, 초록, 보라, 모래 중에 고릅니다. 고른 색에 맞춰 라이트와 다크가 각각 따로 계산됩니다.
-
-한국어와 영어로 씁니다. 운영체제 언어를 따라가고, 메뉴에서 하나로 고정할 수도 있습니다.
-
-위젯을 잃어버렸으면 트레이 아이콘에서 화면 중앙으로를 누르세요.
-
-다른 도구에서 부르려면 이 주소를 쓰면 됩니다. 앱이 꺼져 있어도 켜지면서 열고, 등록해 둔 이름과 정확히 맞아야 합니다.
-
-```
-peek://open/<칸이나 묶음 이름>
-```
-
-### 캐릭터
-
-곁다리 기능입니다. 다섯 중 하나를 위젯에 얹을 수 있고, 가끔 움직입니다. 기본은 캐릭터 없음이라 얹지 않으면 깔끔한 위젯입니다.
-
-<img src="docs/characters.png" width="560" alt="위젯에 얹힌 캐릭터 다섯">
-
-위젯을 접으면 악어와 공룡은 같이 사라집니다. 고양이, 얼룩 고양이, 엎드린 악어는 접어도 보입니다.
-
-### 개인 정보
-
-등록한 주소와 사용 기록은 이 컴퓨터 밖으로 나가지 않습니다. 계정도 서버 동기화도 없습니다. 밖으로 나가는 것은 두 가지뿐입니다. 웹 주소의 아이콘을 가져올 때와, 새 판이 나왔는지 물을 때입니다. 둘 다 보내는 값이 없습니다.
-
-설정은 아래 한 파일에만 저장됩니다.
-
-```
-윈도우  %APPDATA%\dev.jmelodycat.peekwidget\config.json
-맥      ~/Library/Application Support/dev.jmelodycat.peekwidget/config.json
-```
-
-### 지우기
-
-윈도우는 설정 > 앱 > 설치된 앱에서 Peek을 제거합니다. 맥은 응용 프로그램에서 Peek.app을 지웁니다. 설정 파일은 위 경로에 남으므로 필요하면 폴더째 지우세요.
-
-### 알려주기
-
-버그나 불편한 점은 [Issues](../../issues) 에 남겨주세요. 혼자 만드는 도구라 답이 늦을 수 있습니다.
+Please report bugs and problems on the [Issues](../../issues) page. Peek is made by one person, so replies may be slow.

@@ -4,5 +4,5 @@
   "notes": "첫 공개판. 한국어와 영어, 새 판 알림",
   "notes_en": "First public release. Korean and English, update notice",
   "windows": "https://github.com/jmelodycat/peek-releases/releases/download/v1.0.0/Peek_1.0.0_x64-setup.exe",
-  "mac": "https://github.com/jmelodycat/peek-releases/releases/download/v1.0.0/Peek_1.0.0_aarch64.dmg"
+  "mac": "https://github.com/jmelodycat/peek-releases/releases/download/v1.0.0/Peek_1.0.0_universal.dmg"
 }
