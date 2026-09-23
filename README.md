@@ -57,7 +57,7 @@ There are five characters. None is the default, and they move now and then.
 | | Characters |
 |---|---|
 | Disappears when folded | Crocodile, dinosaur |
-| Stays when folded | Cat, tabby, resting crocodile |
+| Visible when folded | Cat, tabby, resting crocodile |
 
 Lost the widget? Use the tray icon and choose Move to centre.
 
@@ -143,7 +143,7 @@ Please open an [issue](../../issues). This is made by one person, so replies can
 | | 캐릭터 |
 |---|---|
 | 접으면 같이 사라짐 | 악어, 공룡 |
-| 접어도 남음 | 고양이, 얼룩 고양이, 엎드린 악어 |
+| 접어도 보임 | 고양이, 얼룩 고양이, 엎드린 악어 |
 
 위젯을 잃어버렸으면 트레이 아이콘에서 화면 중앙으로를 누르세요.
 
