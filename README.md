@@ -47,7 +47,11 @@
 
 **등록하기.** 웹페이지와 프로그램과 폴더를 칸으로 끌어다 놓으면 등록됩니다. 브라우저 주소창의 링크를 끌어와도 됩니다. 빈 칸을 클릭해 주소나 경로를 직접 입력할 수도 있습니다.
 
-**정리하기.** 아래쪽 화살표를 클릭하면 위젯이 접히고 손잡이 부분만 남습니다. 윈도우에서는 윈도우 키와 D를 함께 누르면 다른 창과 함께 접히고, 다시 누르면 펼쳐집니다. 점 세 개를 끌면 위젯을 옮길 수 있으며 화면 가장자리에 자동으로 붙습니다. 칸을 끌어 다른 칸의 위나 아래에 놓으면 순서가 바뀝니다.
+**정리하기.** 아래쪽 화살표를 클릭하면 위젯이 접힙니다. 접으면 아래처럼 펼치기 화살표 하나만 남습니다.
+
+<img src="docs/folded.png" width="130" alt="접힌 Peek 위젯">
+
+ 윈도우에서는 윈도우 키와 D를 함께 누르면 다른 창과 함께 접히고, 다시 누르면 펼쳐집니다. 점 세 개를 끌면 위젯을 옮길 수 있으며 화면 가장자리에 자동으로 붙습니다. 칸을 끌어 다른 칸의 위나 아래에 놓으면 순서가 바뀝니다.
 
 ### 그 밖의 기능
 
@@ -140,7 +144,11 @@ The how-to window appears once after installation, and can be reopened from the 
 
 **Registering.** Drag web pages, programs and folders onto a slot to register them. Links dragged from a browser address bar also work. You can also click an empty slot and type an address or a path.
 
-**Tidying.** Clicking the arrow at the bottom folds the widget, leaving only the handle. On Windows, pressing the Windows key and D folds it together with your other windows and unfolds it again. Dragging the three dots moves the widget, which then snaps to the edge of the screen. Dragging a slot above or below another slot changes the order.
+**Tidying.** Clicking the arrow at the bottom folds the widget. Once folded, only the unfold arrow remains.
+
+<img src="docs/folded.png" width="130" alt="The folded Peek widget">
+
+ On Windows, pressing the Windows key and D folds it together with your other windows and unfolds it again. Dragging the three dots moves the widget, which then snaps to the edge of the screen. Dragging a slot above or below another slot changes the order.
 
 ### Other features
 
