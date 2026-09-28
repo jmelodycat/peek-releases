@@ -63,10 +63,10 @@ This repository holds installers only. The source code is not public.
 |---|---|
 | 칸을 오른쪽 버튼으로 클릭 | 이름과 주소 수정 |
 | 칸 위에 마우스 올리기 | 빨간색 X 버튼으로 삭제 |
-| 패널을 오른쪽 버튼으로 클릭 | 테마, 색상, 언어, 캐릭터, 자동 실행, 사용법, 종료 |
-| 트레이 아이콘 | 위젯 표시, 화면 중앙으로 이동, 사용법, 종료 |
+| 패널을 오른쪽 버튼으로 클릭 | 테마, 색상, 언어, 캐릭터, 자동 실행, 사용법 |
+| 트레이 아이콘 | 위젯 표시, 화면 중앙으로 이동, 설정, 사용법, 종료 |
 
-모든 설정은 패널을 오른쪽 버튼으로 클릭하면 나오는 메뉴에 있습니다. 항목을 선택해도 메뉴가 닫히지 않기 때문에 여러 설정을 차례로 바꿔 볼 수 있습니다.
+모든 설정은 패널을 오른쪽 버튼으로 클릭하면 나오는 메뉴에 있습니다. 항목을 선택해도 메뉴가 닫히지 않기 때문에 여러 설정을 차례로 바꿔 볼 수 있습니다. Peek을 종료할 때는 트레이 아이콘을 사용합니다.
 
 색상은 메뉴 가운데에 있는 여섯 개의 점에서 고릅니다. 기본, 핑크, 파랑, 초록, 보라, 모래 중에서 선택할 수 있습니다. 선택한 색상에 맞춰 밝은 화면과 어두운 화면의 색이 각각 계산됩니다.
 
@@ -142,7 +142,7 @@ The latest version is available on the [Releases](../../releases) page.
 
 **Windows.** The installer displays an "unknown publisher" warning because the program is not code signed. Click More info and then Run to continue.
 
-**macOS.** Open the dmg file and move Peek to the Applications folder. Then right-click the icon and choose Open. Double-clicking will not work, because the app is neither signed nor notarised. If it still refuses to open, run `xattr -cr /Applications/Peek.app` once in Terminal.
+**macOS.** Open the dmg file and move Peek to the Applications folder. Then right-click the icon and choose Open. Double-clicking will not work, because the app is neither signed nor notarized. If it still refuses to open, run `xattr -cr /Applications/Peek.app` once in Terminal.
 
 The how-to window appears once after installation, and can be reopened from the tray icon. Installing a newer version over an older one keeps the slots you have already set up.
 
@@ -164,10 +164,10 @@ The how-to window appears once after installation, and can be reopened from the 
 |---|---|
 | Right-click a slot | Edit its name and address |
 | Hover over a slot | Delete with the red X button |
-| Right-click the panel | Theme, color, language, character, start-up, how to use, quit |
-| Tray icon | Show widget, move to center, how to use, quit |
+| Right-click the panel | Theme, color, language, character, start-up, how to use |
+| Tray icon | Show widget, move to center, settings, how to use, quit |
 
-All settings are in the menu that appears when you right-click the panel. The menu stays open after you select an item, so you can change several settings in turn.
+All settings are in the menu that appears when you right-click the panel. The menu stays open after you select an item, so you can change several settings in turn. To quit Peek, use the tray icon.
 
 Colors are chosen from the six dots in the middle of the menu: default, pink, blue, green, violet and sand. Light and dark variants are calculated separately from the color you select.
 
