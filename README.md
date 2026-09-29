@@ -1,7 +1,7 @@
 # Peek
 
-화면 가장자리에 다섯 칸을 두고, 웹페이지와 프로그램과 파일과 폴더를 한 자리에서 엽니다.
-Five slots at the edge of your screen. Open web pages, programs, files and folders from one place.
+윈도우와 맥에서 쓰는 바탕화면 런처 위젯입니다. 화면 가장자리에 다섯 칸을 두고, 웹페이지와 프로그램과 파일과 폴더를 한 자리에서 엽니다.
+A desktop launcher and dock for Windows and macOS. Five slots at the edge of your screen open web pages, programs, files and folders from one place.
 
 [한국어](#한국어) · [English](#english)
 
@@ -14,7 +14,7 @@ This repository holds installers only. The source code is not public.
 
 <img src="images/group.png" width="200" align="right" alt="묶음 칸과 웹 주소가 등록된 Peek 위젯">
 
-매일 사용하는 프로그램과 웹페이지가 즐겨찾기, 바탕화면, 탐색기에 흩어져 있으면 찾는 데 시간이 걸립니다. Peek은 이것들을 화면 가장자리의 다섯 칸에 모아 둡니다.
+매일 사용하는 프로그램과 웹페이지가 즐겨찾기, 바탕화면 바로가기, 탐색기에 흩어져 있으면 찾는 데 시간이 걸립니다. Peek은 이것들을 화면 가장자리의 다섯 칸에 모아 둡니다. 바탕화면에 바로가기 아이콘을 늘어놓지 않아도 됩니다.
 
 ### 여러 개를 한 번에 열기
 
@@ -115,7 +115,7 @@ peek://open/<칸 또는 묶음의 이름>
 
 <img src="images/group.png" width="200" align="right" alt="The Peek widget with a group slot and a web address">
 
-The programs and web pages you use every day are spread across bookmarks, the desktop and the file explorer. Finding them takes time. Peek collects them into five slots at the edge of your screen.
+The programs and web pages you use every day are spread across bookmarks, desktop shortcuts and the file explorer. Finding them takes time. Peek collects them into five slots at the edge of your screen. It works like a small dock or desktop organizer, but a single slot can hold a website, an app and a folder together and open them all with one click.
 
 ### Opening several items at once
 
