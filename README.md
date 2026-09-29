@@ -95,8 +95,8 @@ peek://open/<칸 또는 묶음의 이름>
 설정은 아래 파일 한 개에만 저장됩니다.
 
 ```
-윈도우  %APPDATA%\dev.jmelodycat.peekwidget\config.json
-맥      ~/Library/Application Support/dev.jmelodycat.peekwidget/config.json
+윈도우  %APPDATA%\app.peekwidget\config.json
+맥      ~/Library/Application Support/app.peekwidget/config.json
 ```
 
 이 파일에는 등록한 다섯 칸과 위젯 위치, 테마와 색, 언어, 캐릭터, 자동 실행 여부가 들어 있습니다. 각 칸을 몇 번 열었는지와 위젯을 접은 날짜도 함께 적힙니다. 다른 컴퓨터로 옮기려면 같은 경로에 이 파일을 복사합니다. 웹 주소는 그대로 열리지만 프로그램과 폴더는 경로가 같아야 열립니다.
@@ -196,8 +196,8 @@ The addresses you register and your usage history are never sent outside your co
 Settings are stored in a single file.
 
 ```
-Windows  %APPDATA%\dev.jmelodycat.peekwidget\config.json
-macOS    ~/Library/Application Support/dev.jmelodycat.peekwidget/config.json
+Windows  %APPDATA%\app.peekwidget\config.json
+macOS    ~/Library/Application Support/app.peekwidget/config.json
 ```
 
 This file holds the five slots you registered, the widget position, the theme and color, the language, the character and whether Peek starts at login. It also records how many times each slot has been opened and the dates the widget was folded. To move your setup to another computer, copy this file to the same path. Web addresses open as before, but programs and folders only open if they sit at the same path on the new computer.
