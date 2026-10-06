@@ -1,8 +1,8 @@
 {
-  "version": "1.0.1",
-  "date": "2026-09-29",
-  "notes": "작업 표시줄 뒤로 숨던 문제 수정, 설정 폴더 이름 변경",
-  "notes_en": "Fixed hiding behind the taskbar, renamed the settings folder",
-  "windows": "https://github.com/jmelodycat/peek-releases/releases/download/v1.0.1/Peek_1.0.1_x64-setup.exe",
-  "mac": "https://github.com/jmelodycat/peek-releases/releases/download/v1.0.0/Peek_1.0.0_universal.dmg"
+  "version": "1.1.0",
+  "date": "2026-10-06",
+  "notes": "지금 열어 둔 것에서 담기, 맥 메뉴 막대 형식",
+  "notes_en": "Add from what is open now, menu bar mode on macOS",
+  "windows": "https://github.com/jmelodycat/peek-releases/releases/download/v1.1.0/Peek_1.1.0_x64-setup.exe",
+  "mac": "https://github.com/jmelodycat/peek-releases/releases/download/v1.1.0/Peek_1.1.0_universal.dmg"
 }
