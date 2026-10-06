@@ -43,7 +43,7 @@ This repository holds installers only. The source code is not public.
 
 **맥.** dmg 파일을 열어 Peek을 응용 프로그램 폴더로 옮깁니다. 그다음 아이콘을 마우스 오른쪽 버튼으로 클릭하고 열기를 선택합니다. 더블클릭으로는 실행되지 않습니다. 서명과 공증을 거치지 않았기 때문입니다. 그래도 실행되지 않으면 터미널에서 `xattr -cr /Applications/Peek.app` 명령을 한 번 실행합니다.
 
-설치가 끝나면 사용법 창이 한 번 표시됩니다. 이후에는 트레이 아이콘에서 다시 열 수 있습니다. 새 버전을 덮어 설치해도 등록해 둔 다섯 칸은 그대로 유지됩니다.
+처음 설치하면 지금 열어 둔 것에서 담기 화면이 먼저 나타나고, 이어서 사용법 창이 한 번 표시됩니다. 사용법은 이후에도 트레이 아이콘에서 다시 열 수 있습니다. 새 버전을 덮어 설치해도 등록해 둔 다섯 칸은 그대로 유지됩니다.
 
 ### 등록하기와 정리하기
 
@@ -144,7 +144,7 @@ The latest version is available on the [Releases](../../releases) page.
 
 **macOS.** Open the dmg file and move Peek to the Applications folder. Then right-click the icon and choose Open. Double-clicking will not work, because the app is neither signed nor notarized. If it still refuses to open, run `xattr -cr /Applications/Peek.app` once in Terminal.
 
-The how-to window appears once after installation, and can be reopened from the tray icon. Installing a newer version over an older one keeps the slots you have already set up.
+On a new install, the "Add from what is open now" window appears first, followed by the how-to window once. The how-to window can be reopened later from the tray icon. Installing a newer version over an older one keeps the slots you have already set up.
 
 ### Registering and tidying
 
