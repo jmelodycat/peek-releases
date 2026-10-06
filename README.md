@@ -63,8 +63,8 @@ This repository holds installers only. The source code is not public.
 |---|---|
 | 칸을 오른쪽 버튼으로 클릭 | 이름과 주소 수정 |
 | 칸 위에 마우스 올리기 | 빨간색 X 버튼으로 삭제 |
-| 패널을 오른쪽 버튼으로 클릭 | 테마, 색상, 언어, 캐릭터, 자동 실행, 사용법 |
-| 트레이 아이콘 | 위젯 표시, 화면 중앙으로 이동, 설정, 사용법, 종료 |
+| 패널을 오른쪽 버튼으로 클릭 | 보이는 곳(맥), 테마, 색상, 언어, 캐릭터, 자동 실행, 지금 열어 둔 것에서 담기, 사용법 |
+| 트레이 아이콘 | 윈도우: 위젯 표시, 화면 중앙으로 이동, 사용법, 종료<br>맥: 위젯 표시, 화면 중앙으로 이동, 설정, 사용법, 종료. 메뉴 막대 형식에서는 설정, 사용법, 종료 |
 
 모든 설정은 패널을 오른쪽 버튼으로 클릭하면 나오는 메뉴에 있습니다. 항목을 선택해도 메뉴가 닫히지 않기 때문에 여러 설정을 차례로 바꿔 볼 수 있습니다. Peek을 종료할 때는 트레이 아이콘을 사용합니다.
 
@@ -164,8 +164,8 @@ On a new install, the "Add from what is open now" window appears first, followed
 |---|---|
 | Right-click a slot | Edit its name and address |
 | Hover over a slot | Delete with the red X button |
-| Right-click the panel | Theme, color, language, character, start-up, how to use |
-| Tray icon | Show widget, move to center, settings, how to use, quit |
+| Right-click the panel | Show in (macOS), theme, color, language, character, start-up, add from what is open now, how to use |
+| Tray icon | Windows: show widget, move to center, how to use, quit<br>macOS: show widget, move to center, settings, how to use, quit. In the menu bar layout: settings, how to use, quit |
 
 All settings are in the menu that appears when you right-click the panel. The menu stays open after you select an item, so you can change several settings in turn. To quit Peek, use the tray icon.
 
