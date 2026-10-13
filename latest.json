@@ -1,8 +1,8 @@
 {
-  "version": "1.1.0",
-  "date": "2026-10-06",
-  "notes": "지금 열어 둔 것에서 담기, 맥 메뉴 막대 형식",
-  "notes_en": "Add from what is open now, menu bar mode on macOS",
-  "windows": "https://github.com/jmelodycat/peek-releases/releases/download/v1.1.0/Peek_1.1.0_x64-setup.exe",
-  "mac": "https://github.com/jmelodycat/peek-releases/releases/download/v1.1.0/Peek_1.1.0_universal.dmg"
+  "version": "1.1.1",
+  "date": "2026-10-13",
+  "notes": "처음 시작하기 쉽게, 고치기·지우기 버튼, 위젯 자리 밀림 수정",
+  "notes_en": "Easier first start, edit and remove buttons, fixes for widget position",
+  "windows": "https://github.com/jmelodycat/peek-releases/releases/download/v1.1.1/Peek_1.1.1_x64-setup.exe",
+  "mac": "https://github.com/jmelodycat/peek-releases/releases/download/v1.1.1/Peek_1.1.1_universal.dmg"
 }
